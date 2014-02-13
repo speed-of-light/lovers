@@ -148,12 +148,12 @@ p[
   data-950="font-size: 20px; color: rgba(230,80,80,.98)"
   data-1050="font-size: 20px; color: rgba(230,80,80,.98)"
   data-1150="font-size: 14px; color: rgba(160, 60,60,.4)"
- ]
+]
   | Working Working Working
 
 .placeholder[
   data-1000="height: 20px"
-  data-1200="height: 260px"
+  data-1200="height: 220px"
   ]
 h3[
   data-1000="color: rgba(22, 22, 22,.7); font-size: 25px"
