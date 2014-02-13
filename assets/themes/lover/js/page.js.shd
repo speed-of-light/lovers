@@ -1,0 +1,4 @@
+## coffee -csb
+## vim: ft=coffee
+
+console.log "test"

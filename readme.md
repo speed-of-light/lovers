@@ -1,5 +1,6 @@
 # for lovers
 
+[Please check](http://speed-of-light.github.io/lovers)
 
 ## Versions
 

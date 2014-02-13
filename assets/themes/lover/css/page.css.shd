@@ -1,0 +1,10 @@
+## sass
+// vim: ft=sass
+
+h1, h2, h3, h4, body
+  margin: 0
+  padding: 0
+
+ul
+  li
+    color: #1122EE
