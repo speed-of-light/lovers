@@ -1,0 +1,12 @@
+!.gitkeep
+_site
+_theme_packages
+vendor
+.bundle
+
+#system
+.rbenv-version
+.rvmrc
+Thumbs.db
+.DS_Store
+
