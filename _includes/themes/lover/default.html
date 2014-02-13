@@ -9,7 +9,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <!--[if lt IE 9]
   script src="http://html5shim.googlecode.com/svn/trunk/html5.js"-->
-  <link href="{{ ASSET_PATH }}/css/page.css?body=1" media="all" rel="stylesheet" type="text/css" />
+  <link href="{{ ASSET_PATH }}/css/page.css?body=3" media="all" rel="stylesheet" type="text/css" />
   <link href="img/favicon.ico" rel="shortcut icon" />
   <link href="img/sol_72.png" rel="apple-touch-icon" />
   <link href="img/sol_72.png" rel="apple-touch-icon" sizes="72x72" />
@@ -20,15 +20,15 @@
 <body>
   <div class="navbar">
     <div class="navbar-inner">
-      <div class="container-narrow">
-        <a class="brand" href="#">{{ site.title }}</a>
-      </div>
+      <div class="container-narrow"></div>
     </div>
   </div>
   <div class="container-narrow">
     <div class="content">
-      {{ content }}
+      {{ content }}{% include themes/lover/show.html %}
     </div>
+  </div>
+  <div class="footer">
     <hr />
     <footer>
       <p class="center-block">

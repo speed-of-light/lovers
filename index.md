@@ -1,15 +1,8 @@
 ---
 layout: page
-title: About me
+title: For My Dearest
 tagline: []
 ---
 
 {% include JB/setup %}
-
-## Interests
-
-  - Everyting about web and twittering
-  - ruby
-  - python
-  - data manipulation.
 

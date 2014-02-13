@@ -1,0 +1,81 @@
+$tcolor: rgba(255, 211, 146, 0.86)
+$bcolor: rgba(89, 250, 250, 0.53)
+
+html, body, div, span, p, a, del, em, img, ol, ul, li, fieldset, form, label
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section
+  display: block
+
+html, body
+  min-height: 100% !important
+
+html
+  line-height: 1
+  min-height: 100%
+  font-family: Artial, Verdana, sans-serif
+
+body
+  line-height: 1
+  min-height: 100%
+  font-family: Artial, Verdana, sans-serif
+  background: $tcolor
+  background: -webkit-linear-gradient(top, $tcolor, $bcolor 100%)
+  background: -moz-linear-gradient(top, $tcolor, $bcolor 100%)
+  background: -o-linear-gradient(top, $tcolor, $bcolor 100%)
+  background: -ms-linear-gradient(top, $tcolor, $bcolor 100%)
+  background: linear-gradient(top, $tcolor, $bcolor 100%)
+  background-attachment: fixed
+
+ol, ul
+  list-style: none
+
+p
+  margin: 1em 0
+  line-height: 1.1em
+
+q
+  font-style: italic
+  color: #333
+
+h1
+  font-size: 2.91em
+  margin: 0
+  > small
+    text-align: right
+    display: inline-block
+    font-size: .71em
+    text-indent: 15em
+    color: #444
+
+h2
+  color: inherit
+  font-size: 1.91em
+  margin: 2em 0 1em 0
+  &:first-child
+    margin-top: 0
+
+h3
+  color: #333
+  font-size: 1.41em
+  margin: 1em 0
+
+h4
+  color: #444
+  font-size: 1.11em
+  margin: 1em 0
+
+.content
+  display: block
+
+.footer
+  //position: absolute
+  display: block
+  //bottom: 0px
+  height: 100px
+  width: 100% !important

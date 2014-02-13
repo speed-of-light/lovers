@@ -2,3 +2,6 @@
 ## vim: ft=coffee
 
 console.log "test"
+s = skrollr.init(
+  #forceHeight: true
+)
